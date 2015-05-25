@@ -1,0 +1,31 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 200px;
+}
+
+
+.footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+    /* Set the fixed height of the footer here */
+    height: 150px;
+}
+
+.footer > .container {
+    padding-top: 50px;
+    font-weight: bolder;
+    color: white;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    background-image: url("../images/footer.png"); 
+}
+/* Custom page CSS
+-------------------------------------------------- */
